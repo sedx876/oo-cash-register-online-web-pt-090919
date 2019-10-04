@@ -28,8 +28,8 @@ class CashRegister
     @items << item 
   end 
   
-  def void_last_transaction()
-    @total -= @last_transaction.to_f  
+  def void_last_transaction
+    @total -= @last_transaction 
     if @items == 0 
       0.0 
     end 
