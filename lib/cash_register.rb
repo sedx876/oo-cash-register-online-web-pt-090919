@@ -32,6 +32,7 @@ class CashRegister
     @total -= @last_transaction.to_f  
     if @items == 0 
       0.0 
+    end 
   end
   
 end 
